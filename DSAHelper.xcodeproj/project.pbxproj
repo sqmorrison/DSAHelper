@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		50A3AB562E3759C6000FCB1F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 50A3AB552E3759C6000FCB1F /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		50A3AB302E375067000FCB1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		50A3AB1A2E375065000FCB1F /* DSAHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A3AB2F2E375067000FCB1F /* DSAHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSAHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A3AB392E375067000FCB1F /* DSAHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSAHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A3AB552E3759C6000FCB1F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		50A3AB112E375065000FCB1F = {
 			isa = PBXGroup;
 			children = (
+				50A3AB552E3759C6000FCB1F /* .gitignore */,
 				50A3AB1C2E375065000FCB1F /* DSAHelper */,
 				50A3AB322E375067000FCB1F /* DSAHelperTests */,
 				50A3AB3C2E375067000FCB1F /* DSAHelperUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A3AB562E3759C6000FCB1F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
