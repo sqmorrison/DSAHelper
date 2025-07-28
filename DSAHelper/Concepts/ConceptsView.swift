@@ -20,9 +20,6 @@ struct ConceptsView: View {
                                 .font(.caption)
                                 .foregroundColor(.gray)
                         }
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .foregroundColor(.gray)
                     }
                     .padding(.vertical, 4)
                 }
