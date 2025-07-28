@@ -16,9 +16,6 @@ struct ConceptsView: View {
                         VStack(alignment: .leading) {
                             Text(concept.title)
                                 .font(.headline)
-                            Text("\(concept.associatedProblems.count) problems")
-                                .font(.caption)
-                                .foregroundColor(.gray)
                         }
                     }
                     .padding(.vertical, 4)

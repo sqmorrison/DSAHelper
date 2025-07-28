@@ -8,8 +8,8 @@
 import Foundation
 
 struct LeetCodeProblem: Identifiable, Codable {
-    var id: UUID = UUID()
+    var id: String { title } // use title as ID, must be unique
     let title: String
-    let difficulty: String
     let topic: String
+    let difficulty: String
 }
