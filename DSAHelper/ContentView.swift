@@ -9,14 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            List(sampleConcepts) { concept in
-                NavigationLink(destination: DetailView(concept: concept)) {
-                    Text(concept.title)
-                        .font(.headline)
+        TabView {
+            ConceptsView()
+                .tabItem {
+                    Label("Concepts", systemImage: "book.closed")
                 }
-            }
-            .navigationTitle("DSA Helper")
+           
+            TrackerView()
+                .tabItem {
+                    Label("Tracker", systemImage: "checkmark.square")
+                }
         }
     }
 }
