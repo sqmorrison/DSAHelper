@@ -86,7 +86,7 @@ struct TrackerView: View {
                     }
                 }
             }
-            .navigationTitle("LeetCode 75")
+            .navigationTitle("LeetCode 75 Reference")
             .onAppear {
                 loadCompletionState()
             }
